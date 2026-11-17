@@ -16,11 +16,12 @@ if [ "$PAM_TYPE" != "open_session" ]; then exit 0; fi
         
         # Correspondance des noms
         case "$DEST_IP" in
-            "192.168.1.36")  DEST_NAME="PC-GAMER" ;;
+            "192.168.1.24")  DEST_NAME="TOUR-Clement" ;;
             "192.168.1.48")  DEST_NAME="SERVEUR-NAS" ;;
-            "192.168.1.54")  DEST_NAME="SERVEUR-KALI" ;;
+            "192.168.1.54")  DEST_NAME="SERVEUR-THOMSON" ;;
             "192.168.1.71")  DEST_NAME="SERVEUR-1" ;;
             "192.168.1.166") DEST_NAME="DELL-15" ;;
+            "192.168.1.156") DEST_NAME="SERVEUR-DELL" ;;
             "192.168.1.196") DEST_NAME="SERVEUR-2" ;;
             *)               DEST_NAME="Hôte Inconnu" ;;
         esac
